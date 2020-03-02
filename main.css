@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans";
+}
+
+header {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+ul {
+  margin: 0;
+}
+.header-nav {
+  padding: 1rem;
+  text-align: center;
+}
+.first-nav {
+  border-left: none;
+}
+
+.main-nav a {
+    color:black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.main-footer {
+  border-top: 3px solid #000;
+}
+#main-content {
+  padding: 1rem;
+}
+.footer-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer-nav {
+  padding-right: 1rem;
+}
+
+.footer-nav a {
+    color:black;
+}
+
+.copy-rights {
+  text-align: center;
+  color: #ccc;
+}
+
+
+/* Who_We_Are Section */
+.grid {
+    display: grid;
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "whobox paragraph paragraph paragraph paragraph"
+    "whobox image image image image"
+    "whobox image image image image"
+    "whobox image image image image";
+    
+}
+
+/* Who We Are Box */
+.whobox {
+    background-color: #8C271E;
+    grid-area: whobox;
+    /* grid-row: 1/4;
+    grid-column: 1/2; */
+    font-size: 17px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+.whobox p{
+    color: white;
+    margin: 15px 0 2px 10px; 
+}
+
+.whobox hr {
+    border: 1px solid white;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.whobox a{
+    color: white;
+    margin: 12px 0 10px 10px;
+    font-size: 14px;
+}
+
+.whobox img {
+    width: 200px;
+    height: 150px;
+    margin: 15px 0 0 10px;
+}
+
+.who-footer p{
+    font-weight: bold;
+    margin: 0 0 0 13px;
+    font-size: 12px;
+}
+
+.who-footer-text p{
+    font-size: 10px;
+    margin: 0 0 8px 13px;
+}
+
+
+/* Paragraph */
+.paragraph {
+   grid-area: paragraph; 
+   /* grid-column: 2/6;
+   grid-row: 1/2; */
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+
+.paragraph p {
+    font-size: 17px;
+    padding-top: 2px;
+    margin-right: 100px;
+}
+
+
+/* Images */
+.images {
+    grid-area: images;
+    background-color: khaki;
+}
+
+/* .imagesection img {
+    width: 130px;
+    height: 130px;
+}
+
+.imagesection .images1{
+    
+} */
+
+
+
+
+
+/* .images1 img {
+    border: double black;
+    display: flexbox;
+    width: 400px;
+    height: 140px;
+}
+
+.images2 img,p{
+    display:flex;
+    
+} */
+
+/* .images img{
+    width: 400px;
+    height: 140px;
+    display: flex;
+} */  
